@@ -1,13 +1,9 @@
-# A Recommender System Implementation Using Yelp Dataset on Kaggle.com
+# Repository of Jupyter Notebooks
 ## Overview
-The repository contains work under collaborative filtering applying Nicolas Hug's Surprise package (Singular Value Decomposition) as well as exploring injecting unsupervised cluster(s) (k-means) into SVD model.
-## Data
-Data can be obtained from kaggle.com @ https://www.kaggle.com/yelp-dataset/yelp-dataset
-This is an academic set provided by Yelp (JSON format) with a substantial volume. You can also access it directly on Yelp website. 
-## Process
-This notebook contains:
-1. API call to Yelp Fusion API to retrieve restaurant categories (almost cuisine-like strings)
-2. Yelp dataset cleaning and exploratory data analysis using seaborn and bokeh
-3. Modeling approach 1: applying Surprise's SVD and a GridsearchCV
-4. Modeling approach 2: creating k-means clusters and inject one into SVD
-5. A sample text analysis of reviews and regression to predict star ratings
+The repository contains notebooks demonstrating EDA or modeling options for various datasets.
+### Politics and Statistics
+This notebook looks at the US presidential elections across 3 years (2008, 2012, 2016). It attempts some EDA on the data and makes prediction of the 2016 outcome.
+### MNIST Analysis
+This notebook contains a few modeling options to dissect MNIST (SVM, KNN, Logistic Regression, and XGBoost)
+### Yelp Recommender System
+This notebook works with dataset released by Yelp on Kaggle.com as well as via their Fusion API to attempt building a recommender system using collaborative filtering - matrix factorization.
