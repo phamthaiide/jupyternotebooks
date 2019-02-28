@@ -7,3 +7,5 @@ This notebook looks at the US presidential elections across 3 years (2008, 2012,
 This notebook contains a few modeling options to dissect MNIST (SVM, KNN, Logistic Regression, and XGBoost)
 ### Yelp Recommender System
 This notebook works with dataset released by Yelp on Kaggle.com as well as via their Fusion API to attempt building a recommender system using collaborative filtering - matrix factorization.
+### NYC Green Taxis Demand - Time Series Analysis
+This notebook is about performing exploratory analysis (with some geographical data manipulation) as well as a time series analysis
